@@ -1,9 +1,13 @@
+import Image from "next/image";
 import React, { FC } from "react";
 
 const Tarifler: FC = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mb-5 ml-10 mr-10">
-      <div className="bg-white-50 p-4 rounded-md shadow-md">
+      <div className="bg-white-50 p-4 rounded-md shadow-md mt-5">
+        <div className="flex justify-center mb-5">
+          <Image src="/brokoli.jpeg" alt="brokoli" width={300} height={325} />
+        </div>
         <h2 className="text-2xl font-bold mb-2">Brokoli Çorbası</h2>
         <p className="text-gray-700 mb-4">İçindekiler:</p>
         <ul className="list-disc list-inside text-gray-700">
@@ -33,6 +37,14 @@ const Tarifler: FC = () => {
       </div>
 
       <div className="bg-white-50 p-4 rounded-md shadow-md">
+        <div className="flex justify-center mb-5">
+          <Image
+            src="/nohut-salatasi.jpeg"
+            alt="nohut-salatasi"
+            width={300}
+            height={325}
+          />
+        </div>
         <h2 className="text-2xl font-bold mb-2">Nohut Salatası</h2>
         <p className="text-gray-700 mb-4">İçindekiler:</p>
         <ul className="list-disc list-inside text-gray-700">
@@ -66,6 +78,9 @@ const Tarifler: FC = () => {
       </div>
 
       <div className="bg-white-50 p-4 rounded-md shadow-md">
+        <div className="flex justify-center mb-5">
+          <Image src="/somon.jpeg" alt="somon" width={300} height={325} />
+        </div>
         <h2 className="text-2xl font-bold mb-2">Fırında Somon</h2>
         <p className="text-gray-700 mb-4">İçindekiler:</p>
         <ul className="list-disc list-inside text-gray-700">
@@ -94,6 +109,9 @@ const Tarifler: FC = () => {
       </div>
 
       <div className="bg-white-50 p-4 rounded-md shadow-md">
+        <div className="flex justify-center mb-5">
+          <Image src="/piyaz.jpeg" alt="piyaz" width={300} height={325} />
+        </div>
         <h2 className="text-2xl font-bold mb-2">Piyaz</h2>
         <p className="text-gray-700 mb-4">İçindekiler:</p>
         <ul className="list-disc list-inside text-gray-700">
