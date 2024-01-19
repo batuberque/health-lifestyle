@@ -10,7 +10,7 @@ const menuItems = [
   { path: "/cocuk", label: "ÇOCUK" },
   { path: "/ulkeler", label: "ÜLKELER" },
   { path: "/tr-mutfak", label: "TÜRK MUTFAĞI" },
-  { path: "/ornek-menu", label: "ÖRNEK MENU" },
+  { path: "/ornek-menu", label: "ÖRNEK MENÜ" },
   { path: "/stratejiler", label: "STRATEJİLER" },
   { path: "/tarifler", label: "TARİFLER" },
 ];

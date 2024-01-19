@@ -2,9 +2,8 @@ import React, { FC } from "react";
 
 const Tarifler: FC = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
-      {/* Brokoli Çorbası Tarifi */}
-      <div className="bg-blue-50 p-4 rounded-md shadow-md">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mb-5 ml-10 mr-10">
+      <div className="bg-white-50 p-4 rounded-md shadow-md">
         <h2 className="text-2xl font-bold mb-2">Brokoli Çorbası</h2>
         <p className="text-gray-700 mb-4">İçindekiler:</p>
         <ul className="list-disc list-inside text-gray-700">
@@ -33,8 +32,7 @@ const Tarifler: FC = () => {
         </ol>
       </div>
 
-      {/* Nohut Salatası Tarifi */}
-      <div className="bg-blue-50 p-4 rounded-md shadow-md">
+      <div className="bg-white-50 p-4 rounded-md shadow-md">
         <h2 className="text-2xl font-bold mb-2">Nohut Salatası</h2>
         <p className="text-gray-700 mb-4">İçindekiler:</p>
         <ul className="list-disc list-inside text-gray-700">
@@ -67,8 +65,7 @@ const Tarifler: FC = () => {
         </ol>
       </div>
 
-      {/* Fırında Somon Tarifi */}
-      <div className="bg-blue-50 p-4 rounded-md shadow-md">
+      <div className="bg-white-50 p-4 rounded-md shadow-md">
         <h2 className="text-2xl font-bold mb-2">Fırında Somon</h2>
         <p className="text-gray-700 mb-4">İçindekiler:</p>
         <ul className="list-disc list-inside text-gray-700">
@@ -96,8 +93,7 @@ const Tarifler: FC = () => {
         </ol>
       </div>
 
-      {/* Piyaz Tarifi */}
-      <div className="bg-blue-50 p-4 rounded-md shadow-md">
+      <div className="bg-white-50 p-4 rounded-md shadow-md">
         <h2 className="text-2xl font-bold mb-2">Piyaz</h2>
         <p className="text-gray-700 mb-4">İçindekiler:</p>
         <ul className="list-disc list-inside text-gray-700">
@@ -137,6 +133,12 @@ const Tarifler: FC = () => {
           </li>
         </ol>
       </div>
+      <p className="text-gray-700 mt-4">
+        <strong>KAYNAK:</strong>
+        TÜBER 2022 Dernini S and Berry EM (2015) Mediterranean diet: from a
+        healthy diet to a sustainable dietary pattern. Front. Nutr. 2:15. doi:
+        10.3389/fnut.2015.00015 Eatright.org
+      </p>
     </div>
   );
 };

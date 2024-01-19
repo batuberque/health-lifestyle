@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div className="flex flex-col items-center justify-center bg-white-100 p-4 rounded-md shadow-md mr-10 ml-10">
+    <div className="flex flex-col items-center justify-center bg-white-100 p-4 rounded-md shadow-md mr-10 ml-10 mb-5">
       <h2 className="text-2xl font-bold mb-4">Sağlıklı Beslenme Nedir?</h2>
       <Image
         priority={false}
@@ -30,6 +30,14 @@ export default function Page() {
         sağlanması ve yine günlük beslenmede zeytinyağının yer alması, aktif
         yaşamın desteklenmesi sağlıklı yaşam biçiminin tamamlayıcısı olarak önem
         taşımaktadır.
+      </p>
+      <p className="text-gray-700 mt-4">
+        <strong>KAYNAK:</strong>
+        TÜBER-2022{" "}
+        <a href="https://dergipark.org.tr/en/download/article-file/1716217">
+          {" "}
+          https://dergipark.org.tr/en/download/article-file/1716217
+        </a>
       </p>
     </div>
   );

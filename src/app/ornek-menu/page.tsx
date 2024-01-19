@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
 
@@ -19,6 +20,11 @@ const OrnekMenu = () => {
         width={500}
         height={325}
       />
+      <p className="text-gray-700 mt-4">
+        <strong>KAYNAK:</strong>
+        Baysal, Ayşe. "Sağlıklı beslenme ve Akdeniz diyeti." Beslenme ve Diyet
+        Dergisi 25.1 (1996): 21-29.{" "}
+      </p>
     </div>
   );
 };
