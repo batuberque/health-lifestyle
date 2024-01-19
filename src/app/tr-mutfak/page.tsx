@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from "next/image";
 import React, { FC } from "react";
 
 const TRMutfak: FC = () => {
@@ -7,7 +8,14 @@ const TRMutfak: FC = () => {
       <h2 className="text-2xl font-bold mb-4">
         Türk Mutfağı Akdeniz Diyetine Uyar mı?
       </h2>
-      <p className="text-gray-700">
+      <Image
+        priority={false}
+        src="/meyve.jpeg"
+        alt="meyve"
+        width={500}
+        height={325}
+      />
+      <p className="text-gray-700 mt-5">
         Türk halkının sofrasında ekmek esas besindir. Ekmeğin aşırı
         saflaştırılmış beyaz undan üretilmesi uygun olmamakla birlikte diyette
         bulgur ve kuru baklagillerin bulunması bu eksikliği giderilebilmektedir.

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { FC } from "react";
 
 const Saglik: FC = () => {
@@ -6,7 +7,14 @@ const Saglik: FC = () => {
       <h2 className="text-2xl font-bold mb-4">
         Akdeniz Diyetinin Sağlıkla İlişkisi Nedir?
       </h2>
-      <p className="text-gray-700">
+      <Image
+        priority={false}
+        src="/saglikla-iliskiler.jpeg"
+        alt="saglikla-iliskiler"
+        width={500}
+        height={325}
+      />
+      <p className="text-gray-700 mt-5">
         Akdeniz diyeti, içeriği bakımından meyve ve sebzeden yoğun olması ve
         zeytinyağını merkezinde bulundurması özelliklerinden dolayı sağlıklı
         yaşama destek olmasıyla bilinir. Bu diyet, bulaşıcı olmayan kronik

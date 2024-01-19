@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { FC } from "react";
 
 const Hastaliklar: FC = () => {
@@ -6,7 +7,14 @@ const Hastaliklar: FC = () => {
       <h2 className="text-2xl font-bold mb-4">
         Akdeniz Diyeti Hangi Hastalıklara İyi Gelir?
       </h2>
-      <p className="text-gray-700">
+      <Image
+        priority={false}
+        src="/kalp-hastaliklari.jpeg"
+        alt="kalp-hastaliklari"
+        width={500}
+        height={325}
+      />
+      <p className="text-gray-700 mt-5">
         Akdeniz diyeti, geleneksel olarak Akdeniz bölgesine özgü olan ve
         sağlıklı beslenmeyi vurgulayan bir diyet modelidir. Bu diyetin
         kalp-damar sağlığı üzerinde olumlu etkileri olduğu birçok araştırma

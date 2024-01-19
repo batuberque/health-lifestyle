@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { FC } from "react";
 
 const AkdenizDiyetiBesinleri: FC = () => {
@@ -6,7 +7,8 @@ const AkdenizDiyetiBesinleri: FC = () => {
       <h2 className="text-2xl font-bold mb-4">
         Akdeniz Diyetinde Yer Alan Besinler Nelerdir?
       </h2>
-      <p className="mb-2">
+
+      <p className="mb-2 mt-5">
         Akdeniz diyetinde işlem görmüş besinler yer almazken, et ve ürünleri
         (özellikle kırmızı et) çok az yer kaplamaktadır. Diyette daha çok tam
         tahıllar, sebze ve meyveler, kuru baklagiller, yağlı tohumlar, balık ve
@@ -61,7 +63,7 @@ const AkdenizDiyetiBesinleri: FC = () => {
         korumaya yardımcıdır. İyi kalite protein örneği olan balık tipik Akdeniz
         diyetinde haftada en az 2-3 porsiyon tüketilmelidir.
       </p>
-      <p className="text-sm text-gray-600">
+      <p className="text-sm text-gray-600 mb-5">
         KAYNAK: Barbaros B, Kabaran S. Akdeniz Diyeti ve Sağlığı Koruyucu
         Etkileri. Bes Diy Derg [Internet]. 15 Ağustos 2014 [a.yer 03 Aralık
         2023];42(2):140-7. Erişim adresi:
@@ -69,6 +71,15 @@ const AkdenizDiyetiBesinleri: FC = () => {
         ÖZER, E. R., & TEKİNŞEN, K. (2021). Akdeniz Diyeti ve Sağlık. Akademik
         Et Ve Süt Kurumu Dergisi(2), 13-23.
       </p>
+      <div className="flex justify-center">
+        <Image
+          priority={false}
+          src="/akdeniz3.jpeg"
+          alt="akdeniz3"
+          width={400}
+          height={325}
+        />
+      </div>
     </div>
   );
 };

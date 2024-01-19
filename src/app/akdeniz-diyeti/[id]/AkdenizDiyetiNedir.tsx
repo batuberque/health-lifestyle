@@ -1,10 +1,18 @@
+import Image from "next/image";
 import React, { FC } from "react";
 
 const AkdenizDiyetiNedir: FC = () => {
   return (
     <div className="p-4">
       <h2 className="text-2xl font-bold mb-4">Akdeniz Diyeti Nedir?</h2>
-      <p className="mb-2">
+      <Image
+        priority={false}
+        src="/akdeniz1.jpeg"
+        alt="akdeniz1"
+        width={400}
+        height={325}
+      />
+      <p className="mb-2 mt-5">
         Bir Akdeniz ülkesi olan Türkiye için Akdeniz Diyeti tüm sağlık,
         çevresel, ekonomik ve sosyal faydalarının yanı sıra yerel oluşu ve
         kültürel uygunluğu ile teşvik edilmesi gereken sürdürülebilir bir

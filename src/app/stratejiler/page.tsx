@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { FC } from "react";
 
 const Stratejiler: FC = () => {
@@ -6,7 +7,14 @@ const Stratejiler: FC = () => {
       <h2 className="text-2xl font-bold mb-4">
         Akdeniz Diyetine Uygun Alışveriş Stratejileri
       </h2>
-      <p className="text-gray-700">
+      <Image
+        priority={false}
+        src="/akdeniz5.jpeg"
+        alt="akdeniz"
+        width={500}
+        height={325}
+      />
+      <p className="text-gray-700 mt-5">
         Sürdürülebilir beslenme, çevresel etkileri düşük, gıda ve beslenme
         güvenliğine, şimdiki ve gelecek nesillerin sağlıklı yaşamına katkıda
         bulunan beslenme biçimidir. Sürdürülebilir beslenme, biyolojik
